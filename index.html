@@ -68,13 +68,11 @@
            "OSM": osm,
            "Google": google
         };
-	
-        var overlayMaps = {
+	var overlayMaps = {
 	    "Surface": surface,
             //"Tor": tor,
             "College": college
         };
-
         L.control.layers(baseMaps, overlayMaps).addTo(mymap);
 	
 	mymap.addControl(new L.Control.Fullscreen());
