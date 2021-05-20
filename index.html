@@ -25,7 +25,10 @@
 <div id="mapid" style="width: 100%; height: 800px;"></div>
 <script>
 
-	var mymap = L.map('mapid').setView([51.129852, -2.7334955], 15);
+	var mymap = L.map('mapid').setView(
+		[51.12969, -2.73260],
+		18
+	);
 
 	var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	    maxNativeZoom: 19,	
